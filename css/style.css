@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap&subset=latin-ext");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #4A4E69;
+  padding: 30px 20px;
+  text-align: center;
+  color: #F2E9E4;
+}
+
+header a {
+  color: #F2E9E4;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #D32F2F;
+}
+
+.site-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 26px;
+}
+
+.site-name img {
+  margin-right: 10px;
+}
+
+.progress-bar-section {
+  margin: 30px auto;
+}
+
+.progress-bar-section h2 {
+  text-transform: uppercase;
+}
+
+.progress-bar-container {
+  margin: 30px auto;
+  height: 60px;
+  width: 1000px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #F2E9E4;
+  position: relative;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.progress-bar-container::before {
+  content: '01.01.2020 r.';
+  position: absolute;
+  left: -150px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 23px;
+}
+
+.progress-bar-container::after {
+  content: '04.05.2020 r.';
+  position: absolute;
+  right: -160px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 23px;
+}
+
+.progress-bar {
+  height: 40px;
+  background-color: #D32F2F;
+  border-radius: 50px;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main h2 {
+  text-transform: uppercase;
+  color: #22223B;
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+.cart {
+  width: 1200px;
+  height: 250px;
+  background-color: #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(160, 160, 160, 0.25);
+          box-shadow: 0px 0px 10px rgba(160, 160, 160, 0.25);
+  color: #22223B;
+  margin-bottom: 50px;
+  opacity: 0;
+}
+
+.cart img {
+  height: 250px;
+  margin-right: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.cart-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+}
+
+.cart-content h3 {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.cart-content p {
+  text-transform: uppercase;
+  height: 55%;
+}
+
+.cart-content a {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 22px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.cart-content a:hover {
+  color: #D32F2F;
+}
+
+.cart-content a:hover > svg {
+  -webkit-filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+          filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+/*# sourceMappingURL=style.css.map */
