@@ -4,7 +4,7 @@ const dateMatura = new Date("05.04.2020");
 const dateCountFrom = new Date("01.01.2020");
 const dateToday = new Date();
 const maxWidth = parseInt(progressBarContainer.offsetWidth) - 20;
-
+//                                                                                        milisec * 60sec  * 60min * 24h
 const daysToMatura = Math.ceil(Math.abs(dateMatura.getTime() - dateCountFrom.getTime()) / (1000 * 3600 * 24)); // days difference bettwen 01.01 and 04.05 
 const daysElapsed = Math.ceil(Math.abs(dateToday.getTime() - dateCountFrom.getTime()) / (1000 * 3600 * 24)); // days difference bettwen 01.01 and today
 
