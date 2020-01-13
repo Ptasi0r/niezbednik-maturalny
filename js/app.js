@@ -25,7 +25,7 @@ window.addEventListener('load', () => {
   const carts = document.querySelectorAll('.cart');
   const animation = anime.timeline({
     easing: 'easeInOutQuad',
-    duration: 1000
+    duration: 750
   });
   carts.forEach(cart => {
     animation.add({
